@@ -2,13 +2,13 @@ local NotificationHolder = loadstring(game:HttpGet("https://raw.githubuserconten
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
 Notification:Notify(
-    {Title = "wsp bozo", Description = "If yes it make me happy"},
+    {Title = "wsp bozo", Description = "dont know why i could return"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
 )
 wait(1)
 Notification:Notify(
-    {Title = "this script not mine ofc", Description = "Make sure respect players"},
+    {Title = "this script not mine ofc", Description = "most of you guys cant be respect for once D:<"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
 )
