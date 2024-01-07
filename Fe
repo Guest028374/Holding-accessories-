@@ -1,3 +1,23 @@
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+Notification:Notify(
+    {Title = "Greetings do you having fun?", Description = "If yes it make me happy"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
+)
+wait(1)
+Notification:Notify(
+    {Title = "Cause i didnt know how to make script", Description = "Make sure respect players"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
+)
+wait(1)
+Notification:Notify(
+    {Title = "Thanks i try my best :D", Description = "Loading..."},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+)
+--
 local lp = game.Players.LocalPlayer
 local char = lp.Character
 
